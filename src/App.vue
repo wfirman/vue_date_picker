@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DateRangeForm />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DateRangeForm from "@/components/DateRangeForm";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DateRangeForm,
   }
 }
 </script>
